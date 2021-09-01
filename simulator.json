@@ -1,0 +1,28 @@
+{
+  "deviceTypes": [
+    {
+      "id": "new",
+      "running": true,
+      "events": [
+        {
+          "id": "event",
+          "frequency": {
+            "repeat": "1",
+            "every": "minute"
+          },
+          "json": "{\n  \"NitrogenLevel\": random(0, 100),\n  \"PhosphorousLevel\": random(0, 100),\n  \"PotassiumLevel\": random(0, 100),\n  \"Temperature\": random(0, 100),\n  \"Humidity\": random(0, 100),\n  \"PHofSoil\": random(0, 13),\n  \"Rainfall\": random(0, 230)\n}\n"
+        }
+      ],
+      "devices": [
+        {
+          "id": "12345",
+          "generated": false
+        }
+      ],
+      "managed": {
+        "enabled": false
+      }
+    }
+  ],
+  "APIKey": "a-axycsu-aoytevecfs"
+}
